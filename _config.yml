@@ -1,4 +1,3 @@
-theme: jekyll-theme-architect
 title: mxapps
 description: A multi-account Matrix client that allows you to authorize webapps
   to access parts of your account, designed with collaboration in mind.
