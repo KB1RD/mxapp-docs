@@ -1,0 +1,21 @@
+<div markdown="0">
+  <a class="app" href="{{ include.home }}" target="_blank">
+    {% if include.image %}
+      <img class="img" src="{{ include.image }}">
+    {% else %}
+      <div class="img"></div>
+    {% endif %}
+    <!--  src="https://www.kb1rd.net/test.svg" -->
+    <div class="app-details">
+      <h1>{{ include.name }}</h1>
+      <small>
+        {% if include.type == "official" %}
+          <div class="badge-official"></div>
+        {% elsif include.type == "community" %}
+          <div class="badge-community"></div>
+        {% endif %}
+        {{ include.home }}
+      </small>
+    </div>
+  </a>
+</div>
