@@ -1,3 +1,13 @@
 title: mxapps
 description: A multi-account Matrix client that allows you to authorize webapps
   to access parts of your account, designed with collaboration in mind.
+remote_theme: pmarsceill/just-the-docs
+
+aux_links:
+  "On GitHub":
+    - "https://github.com/kb1rd/mxapps/"
+  "Launch mxapps":
+    - "https://mxapps.kb1rd.net/"
+
+aux_links_new_tab: true
+
